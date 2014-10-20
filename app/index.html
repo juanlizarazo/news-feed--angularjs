@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html ng-app="newsFeedApp">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
   <script type="application/javascript" src="js/angular.min.js" ></script>
   <script type="application/javascript" src="app.js" ></script>
 </head>
 <body>
-  <div ng-controller="NewsController as news">
-    <div ng-repeat="news in news.newsFeed.items">
-      <h1><a href="{{news.url}}">{{news.title}}</a></h1>
-      <h3>By: {{news.postedBy}} <small>{{news.postedAgo}}</small></h3>
-      <span>{{news.commentCount}} Comments</span>
+  <div class="container-fluid">
+    <div class="col-xs-12" ng-controller="NewsController as news">
+      <div ng-repeat="news in news.newsFeed.items">
+        <h3><a href="{{news.url}}" target="_blank">{{news.title}}</a></h3>
+        <h5 class="text-muted">
+          By {{news.postedBy}} <span class="label label-default">{{news.postedAgo}}</span>
+          <span class="label label-success">{{news.points}} point</span>
+          <a class="label label-primary" href="{{news.url}}" target="_blank">{{news.commentCount}} Comments</a>
+        </h5>
+        <hr>
+      </div>
     </div>
   </div>
 </body>
