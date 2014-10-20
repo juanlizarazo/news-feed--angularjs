@@ -7,11 +7,9 @@
 <body>
   <div ng-controller="NewsController as news">
     <div ng-repeat="news in news.newsFeed.items">
-      {{news.title}}
-      {{news.url}}
-      {{news.commentCount}}
-      {{news.postedAgo}}
-      {{news.postedBy}}
+      <h1><a href="{{news.url}}">{{news.title}}</a></h1>
+      <h3>By: {{news.postedBy}} <small>{{news.postedAgo}}</small></h3>
+      <span>{{news.commentCount}} Comments</span>
     </div>
   </div>
 </body>
