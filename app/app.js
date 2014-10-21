@@ -1,12 +1,10 @@
 (function(){
   var newsFeedApp = angular.module('newsFeedApp', []);
   
-  newsFeedApp.controller('NewsController', ['$http', function($http) {
-    var newsController = this;
-    newsController.newsFeed = [];
-    
+  newsFeedApp.controller('NewsController', ['$scope', '$http', function($scope, $http) {
+    $scope.newsFeed = [];
     $http.get('newsFeed.json').success(function(news){
-      newsController.newsFeed = news;
+      $scope.newsFeed = news;
     });
   }]);
 })();
