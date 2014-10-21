@@ -1,23 +1,275 @@
 {
   "nextId": "2",
   "items": [
-      {
-          "title": "Facebook's software architecture",
-          "url": "http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html?spref=tw",
-          "id": 8480478,
-          "commentCount": 6,
-          "points": 121,
-          "postedAgo": "4 hours ago",
-          "postedBy": "colbyaley"
-      },
-      {
-          "title": "SmileBASIC for Nintendo 3DS",
-          "url": "http://smilebasic.com/en/",
-          "id": 8480694,
-          "commentCount": 6,
-          "points": 27,
-          "postedAgo": "2 hours ago",
-          "postedBy": "niconii"
-      }
-  ]
+    {
+      "title": "Facebook's software architecture",
+      "url": "http://muratbuffalo.blogspot.com/2014/10/facebooks-software-architecture.html?spref=tw",
+      "id": 8480478,
+      "commentCount": 6,
+      "points": 142,
+      "postedAgo": "5 hours ago",
+      "postedBy": "colbyaley"
+    },
+    {
+      "title": "SmileBASIC for Nintendo 3DS",
+      "url": "http://smilebasic.com/en/",
+      "id": 8480694,
+      "commentCount": 6,
+      "points": 40,
+      "postedAgo": "3 hours ago",
+      "postedBy": "niconii"
+    },
+    {
+      "title": "Simple CPU",
+      "url": "http://www.simplecpu.com/Binary.html",
+      "id": 8478902,
+      "commentCount": 39,
+      "points": 392,
+      "postedAgo": "14 hours ago",
+      "postedBy": "michael_fine"
+    },
+    {
+      "title": "In conversation with Marc Andreessen",
+      "url": "http://nymag.com/daily/intelligencer/2014/10/marc-andreessen-in-conversation.html",
+      "id": 8480445,
+      "commentCount": 18,
+      "points": 57,
+      "postedAgo": "5 hours ago",
+      "postedBy": "npalli"
+    },
+    {
+      "title": "Pixie: A small fast, native lisp with “magical” powers",
+      "url": "https://github.com/pixie-lang/pixie",
+      "id": 8480608,
+      "commentCount": 12,
+      "points": 30,
+      "postedAgo": "4 hours ago",
+      "postedBy": "emidln"
+    },
+    {
+      "title": "Making sure crypto remains insecure [pdf]",
+      "url": "http://cr.yp.to/talks/2014.10.18/slides-djb-20141018-a4.pdf",
+      "id": 8478427,
+      "commentCount": 121,
+      "points": 352,
+      "postedAgo": "16 hours ago",
+      "postedBy": "zorked"
+    },
+    {
+      "title": "Use a Fake Location for Cheap Airfare",
+      "url": "http://www.businessinsider.com/use-a-fake-location-for-cheap-airfare-2014-6",
+      "id": 8479889,
+      "commentCount": 22,
+      "points": 105,
+      "postedAgo": "9 hours ago",
+      "postedBy": "ZeljkoS"
+    },
+    {
+      "title": "Haskell Is Exceptionally Unsafe",
+      "url": "http://existentialtype.wordpress.com/2012/08/14/haskell-is-exceptionally-unsafe/",
+      "id": 8480551,
+      "commentCount": 25,
+      "points": 50,
+      "postedAgo": "4 hours ago",
+      "postedBy": "kirkbackus"
+    },
+    {
+      "title": "Cursors",
+      "url": "http://cursors.io",
+      "id": 8477124,
+      "commentCount": 191,
+      "points": 841,
+      "postedAgo": "1 day ago",
+      "postedBy": "alloyed"
+    },
+    {
+      "title": "Sketchy",
+      "url": "http://www.jarkman.co.uk/catalog/robots/sketchy.htm",
+      "id": 8480117,
+      "commentCount": 7,
+      "points": 59,
+      "postedAgo": "7 hours ago",
+      "postedBy": "WestCoastJustin"
+    },
+    {
+      "title": "IBM Paying Globalfoundries $1.5B to Take Unit in Retreat from Chips",
+      "url": "http://www.bloomberg.com/news/2014-10-19/ibm-agrees-to-pay-globalfoundries-1-5-billion-to-take-chip-unit.html",
+      "id": 8480362,
+      "commentCount": 20,
+      "points": 41,
+      "postedAgo": "6 hours ago",
+      "postedBy": "colmvp"
+    },
+    {
+      "title": "Pandas 0.15 has been released",
+      "url": "http://pandas.pydata.org/pandas-docs/stable/whatsnew.htmlhttp://pandas.pydata.org/pandas-docs/stable/whatsnew.html#v0-15-0-october-18-2014",
+      "id": 8480250,
+      "commentCount": 1,
+      "points": 45,
+      "postedAgo": "6 hours ago",
+      "postedBy": "jvm"
+    },
+    {
+      "title": "Oberon/F for Mac OS (1997)",
+      "url": "http://www.mactech.com/articles/mactech/Vol.13/13.03/OberonIntroduction/index.html",
+      "id": 8479722,
+      "commentCount": 0,
+      "points": 29,
+      "postedAgo": "10 hours ago",
+      "postedBy": "pjmlp"
+    },
+    {
+      "title": "Data Visualization with JavaScript",
+      "url": "http://jsdatav.is/intro.html",
+      "id": 8478933,
+      "commentCount": 13,
+      "points": 128,
+      "postedAgo": "13 hours ago",
+      "postedBy": "nahname"
+    },
+    {
+      "title": "The third great wave",
+      "url": "http://www.economist.com/news/special-report/21621156-first-two-industrial-revolutions-inflicted-plenty-pain-ultimately-benefited",
+      "id": 8479843,
+      "commentCount": 17,
+      "points": 39,
+      "postedAgo": "9 hours ago",
+      "postedBy": "mpdaugherty"
+    },
+    {
+      "title": "What Eventbrite Did Early to Create ‘Sustainable’ Success",
+      "url": "http://firstround.com/article/What-EventBrite-Did-Early-to-Create-Sustainable-Success",
+      "id": 8480207,
+      "commentCount": 1,
+      "points": 27,
+      "postedAgo": "6 hours ago",
+      "postedBy": "peterkchen"
+    },
+    {
+      "title": "The Gombe Chimpanzee War",
+      "url": "https://en.wikipedia.org/wiki/Gombe_Chimpanzee_War",
+      "id": 8479718,
+      "commentCount": 2,
+      "points": 50,
+      "postedAgo": "10 hours ago",
+      "postedBy": "gwern"
+    },
+    {
+      "title": "My First Keyboard Build",
+      "url": "http://www.davecooper.org/blog/2014/10/15/i-built-a-keyboard/",
+      "id": 8477915,
+      "commentCount": 66,
+      "points": 232,
+      "postedAgo": "20 hours ago",
+      "postedBy": "gurgus"
+    },
+    {
+      "title": "Hackers strike defense companies through real-time ad bidding",
+      "url": "http://www.computerworld.com/article/2834927/hackers-strike-defense-companies-through-real-time-ad-bidding.html",
+      "id": 8479247,
+      "commentCount": 36,
+      "points": 76,
+      "postedAgo": "12 hours ago",
+      "postedBy": "r0h1n"
+    },
+    {
+      "title": "Vote all you want. The secret government won’t change",
+      "url": "http://www.bostonglobe.com/ideas/2014/10/18/vote-all-you-want-the-secret-government-won-change/jVSkXrENQlu8vNcBfMn9sL/story.html?event=event25",
+      "id": 8480698,
+      "commentCount": 6,
+      "points": 46,
+      "postedAgo": "3 hours ago",
+      "postedBy": "GuiA"
+    },
+    {
+      "title": "Human Interface Guidelines",
+      "url": "http://elementaryos.org/docs/human-interface-guidelines",
+      "id": 8478895,
+      "commentCount": 22,
+      "points": 81,
+      "postedAgo": "14 hours ago",
+      "postedBy": "macco"
+    },
+    {
+      "title": "SimCity That I Used to Know",
+      "url": "https://medium.com/re-form/simcity-that-i-used-to-know-d5d8c49e3e1d",
+      "id": 8478116,
+      "commentCount": 39,
+      "points": 146,
+      "postedAgo": "18 hours ago",
+      "postedBy": "KhalilK"
+    },
+    {
+      "title": "OpenBSD Passes 300,000 Commits",
+      "url": "http://www.undeadly.org/cgi?action=article&amp;sid=20141019130102&amp;mode=expanded",
+      "id": 8480279,
+      "commentCount": 15,
+      "points": 56,
+      "postedAgo": "6 hours ago",
+      "postedBy": "adamnemecek"
+    },
+    {
+      "title": "Europe's first farmers were also its first carpenters",
+      "url": "http://www.archaeology.org/issues/152-1411/features/2591-germany-recreating-neolithic-toolkit",
+      "id": 8479878,
+      "commentCount": 0,
+      "points": 22,
+      "postedAgo": "9 hours ago",
+      "postedBy": "benbreen"
+    },
+    {
+      "title": "How a lawyer, mechanic, and engineer blew open an auto scandal",
+      "url": "http://pando.com/2014/10/18/gms-hit-and-run-how-a-lawyer-mechanic-and-engineer-blew-the-lid-off-the-worst-auto-scandal-in-history/",
+      "id": 8477241,
+      "commentCount": 108,
+      "points": 232,
+      "postedAgo": "1 day ago",
+      "postedBy": "waffle_ss"
+    },
+    {
+      "title": "Cote D'Azur – Performance of pi calculation in multiple languages (2013)",
+      "url": "http://jmoiron.net/blog/cote-dazur/",
+      "id": 8480399,
+      "commentCount": 7,
+      "points": 13,
+      "postedAgo": "5 hours ago",
+      "postedBy": "axk"
+    },
+    {
+      "title": "Fedcoin",
+      "url": "http://jpkoning.blogspot.com/2014/10/fedcoin.html?m=1",
+      "id": 8479514,
+      "commentCount": 31,
+      "points": 43,
+      "postedAgo": "11 hours ago",
+      "postedBy": "andrewljohnson"
+    },
+    {
+      "title": "20 Years of Impulse Tracker, Part 3",
+      "url": "http://roartindon.blogspot.com/2014/10/20-years-of-impulse-tracker-part-3.html",
+      "id": 8478640,
+      "commentCount": 3,
+      "points": 52,
+      "postedAgo": "15 hours ago",
+      "postedBy": "bane"
+    },
+    {
+      "title": "Jaquard Loom",
+      "url": "http://en.wikipedia.org/wiki/Jacquard_loom",
+      "id": 8479430,
+      "commentCount": 14,
+      "points": 42,
+      "postedAgo": "11 hours ago",
+      "postedBy": "colund"
+    },
+    {
+      "title": "FOBO (YC S11) fades off into the distance",
+      "url": "http://fobostories.tumblr.com/post/98323799703/fobo-fades-off-into-the-distance",
+      "id": 8480755,
+      "commentCount": 6,
+      "points": 21,
+      "postedAgo": "2 hours ago",
+      "postedBy": "mikeknoop"
+    }
+    ]
 }
