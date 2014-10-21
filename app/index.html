@@ -2,21 +2,32 @@
 <html ng-app="newsFeedApp">
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
   <script type="application/javascript" src="js/angular.min.js" ></script>
   <script type="application/javascript" src="app.js" ></script>
 </head>
 <body>
   <div class="container-fluid">
-    <div class="col-xs-12" ng-controller="NewsController as news">
-      <div ng-repeat="news in newsFeed.items">
-        <h3><a href="{{news.url}}" target="_blank">{{news.title}}</a></h3>
-        <h5 class="text-muted">
-          By {{news.postedBy}} <span class="label label-default">{{news.postedAgo}}</span>
-          <span class="label label-success">{{news.points}} points</span>
-          <a class="label label-primary" href="{{news.url}}" target="_blank">{{news.commentCount}} Comments</a>
-        </h5>
-        <hr>
+    <div class="credits">
+      <h3 class="text-white">by Juan Lizarazo</h3>
+      <h5 class="text-white">Build with AngularJS</h5>
+      <h6><a class="btn btn-default btn-xs" href="http://github.com/juanlizarazo">Find me on github</a></h6>
+    </div>
+    <div class="col-xs-offset-4 col-xs-8" ng-controller="NewsController as news">
+      <div class="jumbotron corners-5">
+        <h3>News feed with AngularJS</h3>
+      </div>
+      <div class="news-container corners-5">
+        <div class="news-item" ng-repeat="news in newsFeed.items">
+          <span class="h3">
+            <a class="text-black" href="{{news.url}}" target="_blank">{{news.title}}</a>
+            <span class="label label-default">{{news.postedAgo}}</span>
+            <span class="label label-success">{{news.points}} points</span>
+            <a class="label label-primary" href="{{news.url}}" target="_blank">{{news.commentCount}} Comments</a>
+          </span>
+          <h5 class="text-muted">By {{news.postedBy}}</h5>
+        </div>
       </div>
     </div>
   </div>
