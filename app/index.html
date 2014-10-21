@@ -9,7 +9,7 @@
 <body>
   <div class="container-fluid">
     <div class="col-xs-12" ng-controller="NewsController as news">
-      <div ng-repeat="news in news.newsFeed.items">
+      <div ng-repeat="news in newsFeed.items">
         <h3><a href="{{news.url}}" target="_blank">{{news.title}}</a></h3>
         <h5 class="text-muted">
           By {{news.postedBy}} <span class="label label-default">{{news.postedAgo}}</span>
