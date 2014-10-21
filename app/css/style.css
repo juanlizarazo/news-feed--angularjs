@@ -1,0 +1,60 @@
+body {
+  padding-bottom: 5px;
+  background-image: url(../img/news-bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div.credits {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+div.news-container {
+  font-family: Times;
+  background: #f9f9f9;  
+}
+
+div.news-item {
+  margin-left: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+div.news-item:hover {
+  background: #f0f0f0;
+}
+
+.h3 .label {
+  font-size: 11px;
+}
+.text-white {
+  color: #ffffff;
+}
+
+.text-black {
+  color: #000000;
+}
+
+/* 
+ * Helpers 
+ */
+
+.border {
+  border: solid 1px #ccc;
+}
+
+.gap-10 {
+  margin: 10px;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.corners-5 {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+
