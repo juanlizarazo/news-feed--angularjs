@@ -29,6 +29,12 @@ div.news-item:hover {
 .h3 .label {
   font-size: 11px;
 }
+
+/* 
+ * Helpers 
+ */
+
+
 .text-white {
   color: #ffffff;
 }
@@ -36,10 +42,6 @@ div.news-item:hover {
 .text-black {
   color: #000000;
 }
-
-/* 
- * Helpers 
- */
 
 .border {
   border: solid 1px #ccc;
